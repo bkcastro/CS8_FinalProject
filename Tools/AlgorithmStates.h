@@ -1,0 +1,15 @@
+//
+// Created by Brandon Castro on 12/9/21.
+//
+
+#ifndef CS8_FINALPROJECT_ALGORITHMSTATES_H
+#define CS8_FINALPROJECT_ALGORITHMSTATES_H
+
+enum AlgorithmsStates
+{
+    SELECTIONSORT,
+    BUBBLESORT,
+    MERGESORT
+};
+
+#endif //CS8_FINALPROJECT_ALGORITHMSTATES_H

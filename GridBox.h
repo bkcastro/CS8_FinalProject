@@ -4,7 +4,7 @@
 
 #ifndef CS8_FINALPROJECT_GRIDBOX_H
 #define CS8_FINALPROJECT_GRIDBOX_H
-#include "Box.h"
+#include "Tools/Box.h"
 
 class GridBox : public Box{
 public:

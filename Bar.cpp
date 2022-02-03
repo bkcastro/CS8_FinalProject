@@ -15,10 +15,14 @@ Bar::Bar(float data) {
 
     this->setFillColor(sf::Color::Blue);
     this->setSize({25,data});
-    this->setOrigin(0, data);
 }
 
 void Bar::setValue(float data) {
+    sf::Vector2f pos = this->getPosition();
+    pos.y += value;
+    pos.y -= data;
+    this->setSize({this->getSize().x, data});
+    this->setPosition(pos);
     value = data;
 }
 

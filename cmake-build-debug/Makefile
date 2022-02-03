@@ -129,6 +129,30 @@ CS8_FinalProject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/build
 .PHONY : CS8_FinalProject/fast
 
+Algorithms.o: Algorithms.cpp.o
+.PHONY : Algorithms.o
+
+# target to build an object file
+Algorithms.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Algorithms.cpp.o
+.PHONY : Algorithms.cpp.o
+
+Algorithms.i: Algorithms.cpp.i
+.PHONY : Algorithms.i
+
+# target to preprocess a source file
+Algorithms.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Algorithms.cpp.i
+.PHONY : Algorithms.cpp.i
+
+Algorithms.s: Algorithms.cpp.s
+.PHONY : Algorithms.s
+
+# target to generate assembly for a file
+Algorithms.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Algorithms.cpp.s
+.PHONY : Algorithms.cpp.s
+
 Bar.o: Bar.cpp.o
 .PHONY : Bar.o
 
@@ -153,29 +177,29 @@ Bar.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Bar.cpp.s
 .PHONY : Bar.cpp.s
 
-Box.o: Box.cpp.o
-.PHONY : Box.o
+BubbleSort.o: BubbleSort.cpp.o
+.PHONY : BubbleSort.o
 
 # target to build an object file
-Box.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Box.cpp.o
-.PHONY : Box.cpp.o
+BubbleSort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/BubbleSort.cpp.o
+.PHONY : BubbleSort.cpp.o
 
-Box.i: Box.cpp.i
-.PHONY : Box.i
+BubbleSort.i: BubbleSort.cpp.i
+.PHONY : BubbleSort.i
 
 # target to preprocess a source file
-Box.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Box.cpp.i
-.PHONY : Box.cpp.i
+BubbleSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/BubbleSort.cpp.i
+.PHONY : BubbleSort.cpp.i
 
-Box.s: Box.cpp.s
-.PHONY : Box.s
+BubbleSort.s: BubbleSort.cpp.s
+.PHONY : BubbleSort.s
 
 # target to generate assembly for a file
-Box.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Box.cpp.s
-.PHONY : Box.cpp.s
+BubbleSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/BubbleSort.cpp.s
+.PHONY : BubbleSort.cpp.s
 
 Delay.o: Delay.cpp.o
 .PHONY : Delay.o
@@ -200,6 +224,342 @@ Delay.s: Delay.cpp.s
 Delay.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Delay.cpp.s
 .PHONY : Delay.cpp.s
+
+Dropdown/ContainMenus.o: Dropdown/ContainMenus.cpp.o
+.PHONY : Dropdown/ContainMenus.o
+
+# target to build an object file
+Dropdown/ContainMenus.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/ContainMenus.cpp.o
+.PHONY : Dropdown/ContainMenus.cpp.o
+
+Dropdown/ContainMenus.i: Dropdown/ContainMenus.cpp.i
+.PHONY : Dropdown/ContainMenus.i
+
+# target to preprocess a source file
+Dropdown/ContainMenus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/ContainMenus.cpp.i
+.PHONY : Dropdown/ContainMenus.cpp.i
+
+Dropdown/ContainMenus.s: Dropdown/ContainMenus.cpp.s
+.PHONY : Dropdown/ContainMenus.s
+
+# target to generate assembly for a file
+Dropdown/ContainMenus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/ContainMenus.cpp.s
+.PHONY : Dropdown/ContainMenus.cpp.s
+
+Dropdown/DropdownMenu.o: Dropdown/DropdownMenu.cpp.o
+.PHONY : Dropdown/DropdownMenu.o
+
+# target to build an object file
+Dropdown/DropdownMenu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/DropdownMenu.cpp.o
+.PHONY : Dropdown/DropdownMenu.cpp.o
+
+Dropdown/DropdownMenu.i: Dropdown/DropdownMenu.cpp.i
+.PHONY : Dropdown/DropdownMenu.i
+
+# target to preprocess a source file
+Dropdown/DropdownMenu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/DropdownMenu.cpp.i
+.PHONY : Dropdown/DropdownMenu.cpp.i
+
+Dropdown/DropdownMenu.s: Dropdown/DropdownMenu.cpp.s
+.PHONY : Dropdown/DropdownMenu.s
+
+# target to generate assembly for a file
+Dropdown/DropdownMenu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/DropdownMenu.cpp.s
+.PHONY : Dropdown/DropdownMenu.cpp.s
+
+Dropdown/FileItem.o: Dropdown/FileItem.cpp.o
+.PHONY : Dropdown/FileItem.o
+
+# target to build an object file
+Dropdown/FileItem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/FileItem.cpp.o
+.PHONY : Dropdown/FileItem.cpp.o
+
+Dropdown/FileItem.i: Dropdown/FileItem.cpp.i
+.PHONY : Dropdown/FileItem.i
+
+# target to preprocess a source file
+Dropdown/FileItem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/FileItem.cpp.i
+.PHONY : Dropdown/FileItem.cpp.i
+
+Dropdown/FileItem.s: Dropdown/FileItem.cpp.s
+.PHONY : Dropdown/FileItem.s
+
+# target to generate assembly for a file
+Dropdown/FileItem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/FileItem.cpp.s
+.PHONY : Dropdown/FileItem.cpp.s
+
+Dropdown/FileNode.o: Dropdown/FileNode.cpp.o
+.PHONY : Dropdown/FileNode.o
+
+# target to build an object file
+Dropdown/FileNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/FileNode.cpp.o
+.PHONY : Dropdown/FileNode.cpp.o
+
+Dropdown/FileNode.i: Dropdown/FileNode.cpp.i
+.PHONY : Dropdown/FileNode.i
+
+# target to preprocess a source file
+Dropdown/FileNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/FileNode.cpp.i
+.PHONY : Dropdown/FileNode.cpp.i
+
+Dropdown/FileNode.s: Dropdown/FileNode.cpp.s
+.PHONY : Dropdown/FileNode.s
+
+# target to generate assembly for a file
+Dropdown/FileNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/FileNode.cpp.s
+.PHONY : Dropdown/FileNode.cpp.s
+
+Dropdown/FileTree.o: Dropdown/FileTree.cpp.o
+.PHONY : Dropdown/FileTree.o
+
+# target to build an object file
+Dropdown/FileTree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/FileTree.cpp.o
+.PHONY : Dropdown/FileTree.cpp.o
+
+Dropdown/FileTree.i: Dropdown/FileTree.cpp.i
+.PHONY : Dropdown/FileTree.i
+
+# target to preprocess a source file
+Dropdown/FileTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/FileTree.cpp.i
+.PHONY : Dropdown/FileTree.cpp.i
+
+Dropdown/FileTree.s: Dropdown/FileTree.cpp.s
+.PHONY : Dropdown/FileTree.s
+
+# target to generate assembly for a file
+Dropdown/FileTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/FileTree.cpp.s
+.PHONY : Dropdown/FileTree.cpp.s
+
+Dropdown/Helper.o: Dropdown/Helper.cpp.o
+.PHONY : Dropdown/Helper.o
+
+# target to build an object file
+Dropdown/Helper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/Helper.cpp.o
+.PHONY : Dropdown/Helper.cpp.o
+
+Dropdown/Helper.i: Dropdown/Helper.cpp.i
+.PHONY : Dropdown/Helper.i
+
+# target to preprocess a source file
+Dropdown/Helper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/Helper.cpp.i
+.PHONY : Dropdown/Helper.cpp.i
+
+Dropdown/Helper.s: Dropdown/Helper.cpp.s
+.PHONY : Dropdown/Helper.s
+
+# target to generate assembly for a file
+Dropdown/Helper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/Helper.cpp.s
+.PHONY : Dropdown/Helper.cpp.s
+
+Dropdown/Item.o: Dropdown/Item.cpp.o
+.PHONY : Dropdown/Item.o
+
+# target to build an object file
+Dropdown/Item.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/Item.cpp.o
+.PHONY : Dropdown/Item.cpp.o
+
+Dropdown/Item.i: Dropdown/Item.cpp.i
+.PHONY : Dropdown/Item.i
+
+# target to preprocess a source file
+Dropdown/Item.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/Item.cpp.i
+.PHONY : Dropdown/Item.cpp.i
+
+Dropdown/Item.s: Dropdown/Item.cpp.s
+.PHONY : Dropdown/Item.s
+
+# target to generate assembly for a file
+Dropdown/Item.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/Item.cpp.s
+.PHONY : Dropdown/Item.cpp.s
+
+Dropdown/ItemList.o: Dropdown/ItemList.cpp.o
+.PHONY : Dropdown/ItemList.o
+
+# target to build an object file
+Dropdown/ItemList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/ItemList.cpp.o
+.PHONY : Dropdown/ItemList.cpp.o
+
+Dropdown/ItemList.i: Dropdown/ItemList.cpp.i
+.PHONY : Dropdown/ItemList.i
+
+# target to preprocess a source file
+Dropdown/ItemList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/ItemList.cpp.i
+.PHONY : Dropdown/ItemList.cpp.i
+
+Dropdown/ItemList.s: Dropdown/ItemList.cpp.s
+.PHONY : Dropdown/ItemList.s
+
+# target to generate assembly for a file
+Dropdown/ItemList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/ItemList.cpp.s
+.PHONY : Dropdown/ItemList.cpp.s
+
+Dropdown/MenuBar.o: Dropdown/MenuBar.cpp.o
+.PHONY : Dropdown/MenuBar.o
+
+# target to build an object file
+Dropdown/MenuBar.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBar.cpp.o
+.PHONY : Dropdown/MenuBar.cpp.o
+
+Dropdown/MenuBar.i: Dropdown/MenuBar.cpp.i
+.PHONY : Dropdown/MenuBar.i
+
+# target to preprocess a source file
+Dropdown/MenuBar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBar.cpp.i
+.PHONY : Dropdown/MenuBar.cpp.i
+
+Dropdown/MenuBar.s: Dropdown/MenuBar.cpp.s
+.PHONY : Dropdown/MenuBar.s
+
+# target to generate assembly for a file
+Dropdown/MenuBar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBar.cpp.s
+.PHONY : Dropdown/MenuBar.cpp.s
+
+Dropdown/MenuBox.o: Dropdown/MenuBox.cpp.o
+.PHONY : Dropdown/MenuBox.o
+
+# target to build an object file
+Dropdown/MenuBox.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBox.cpp.o
+.PHONY : Dropdown/MenuBox.cpp.o
+
+Dropdown/MenuBox.i: Dropdown/MenuBox.cpp.i
+.PHONY : Dropdown/MenuBox.i
+
+# target to preprocess a source file
+Dropdown/MenuBox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBox.cpp.i
+.PHONY : Dropdown/MenuBox.cpp.i
+
+Dropdown/MenuBox.s: Dropdown/MenuBox.cpp.s
+.PHONY : Dropdown/MenuBox.s
+
+# target to generate assembly for a file
+Dropdown/MenuBox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBox.cpp.s
+.PHONY : Dropdown/MenuBox.cpp.s
+
+Dropdown/hack.o: Dropdown/hack.cpp.o
+.PHONY : Dropdown/hack.o
+
+# target to build an object file
+Dropdown/hack.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/hack.cpp.o
+.PHONY : Dropdown/hack.cpp.o
+
+Dropdown/hack.i: Dropdown/hack.cpp.i
+.PHONY : Dropdown/hack.i
+
+# target to preprocess a source file
+Dropdown/hack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/hack.cpp.i
+.PHONY : Dropdown/hack.cpp.i
+
+Dropdown/hack.s: Dropdown/hack.cpp.s
+.PHONY : Dropdown/hack.s
+
+# target to generate assembly for a file
+Dropdown/hack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Dropdown/hack.cpp.s
+.PHONY : Dropdown/hack.cpp.s
+
+FileInterface.o: FileInterface.cpp.o
+.PHONY : FileInterface.o
+
+# target to build an object file
+FileInterface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/FileInterface.cpp.o
+.PHONY : FileInterface.cpp.o
+
+FileInterface.i: FileInterface.cpp.i
+.PHONY : FileInterface.i
+
+# target to preprocess a source file
+FileInterface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/FileInterface.cpp.i
+.PHONY : FileInterface.cpp.i
+
+FileInterface.s: FileInterface.cpp.s
+.PHONY : FileInterface.s
+
+# target to generate assembly for a file
+FileInterface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/FileInterface.cpp.s
+.PHONY : FileInterface.cpp.s
+
+Fonts/Fonts.o: Fonts/Fonts.cpp.o
+.PHONY : Fonts/Fonts.o
+
+# target to build an object file
+Fonts/Fonts.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Fonts/Fonts.cpp.o
+.PHONY : Fonts/Fonts.cpp.o
+
+Fonts/Fonts.i: Fonts/Fonts.cpp.i
+.PHONY : Fonts/Fonts.i
+
+# target to preprocess a source file
+Fonts/Fonts.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Fonts/Fonts.cpp.i
+.PHONY : Fonts/Fonts.cpp.i
+
+Fonts/Fonts.s: Fonts/Fonts.cpp.s
+.PHONY : Fonts/Fonts.s
+
+# target to generate assembly for a file
+Fonts/Fonts.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Fonts/Fonts.cpp.s
+.PHONY : Fonts/Fonts.cpp.s
+
+GUI_Components.o: GUI_Components.cpp.o
+.PHONY : GUI_Components.o
+
+# target to build an object file
+GUI_Components.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/GUI_Components.cpp.o
+.PHONY : GUI_Components.cpp.o
+
+GUI_Components.i: GUI_Components.cpp.i
+.PHONY : GUI_Components.i
+
+# target to preprocess a source file
+GUI_Components.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/GUI_Components.cpp.i
+.PHONY : GUI_Components.cpp.i
+
+GUI_Components.s: GUI_Components.cpp.s
+.PHONY : GUI_Components.s
+
+# target to generate assembly for a file
+GUI_Components.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/GUI_Components.cpp.s
+.PHONY : GUI_Components.cpp.s
 
 Grid.o: Grid.cpp.o
 .PHONY : Grid.o
@@ -249,6 +609,102 @@ GridBox.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/GridBox.cpp.s
 .PHONY : GridBox.cpp.s
 
+Images/Images.o: Images/Images.cpp.o
+.PHONY : Images/Images.o
+
+# target to build an object file
+Images/Images.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Images/Images.cpp.o
+.PHONY : Images/Images.cpp.o
+
+Images/Images.i: Images/Images.cpp.i
+.PHONY : Images/Images.i
+
+# target to preprocess a source file
+Images/Images.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Images/Images.cpp.i
+.PHONY : Images/Images.cpp.i
+
+Images/Images.s: Images/Images.cpp.s
+.PHONY : Images/Images.s
+
+# target to generate assembly for a file
+Images/Images.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Images/Images.cpp.s
+.PHONY : Images/Images.cpp.s
+
+LinkList/LinkList.o: LinkList/LinkList.cpp.o
+.PHONY : LinkList/LinkList.o
+
+# target to build an object file
+LinkList/LinkList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/LinkList/LinkList.cpp.o
+.PHONY : LinkList/LinkList.cpp.o
+
+LinkList/LinkList.i: LinkList/LinkList.cpp.i
+.PHONY : LinkList/LinkList.i
+
+# target to preprocess a source file
+LinkList/LinkList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/LinkList/LinkList.cpp.i
+.PHONY : LinkList/LinkList.cpp.i
+
+LinkList/LinkList.s: LinkList/LinkList.cpp.s
+.PHONY : LinkList/LinkList.s
+
+# target to generate assembly for a file
+LinkList/LinkList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/LinkList/LinkList.cpp.s
+.PHONY : LinkList/LinkList.cpp.s
+
+LinkList/Node_Iterator.o: LinkList/Node_Iterator.cpp.o
+.PHONY : LinkList/Node_Iterator.o
+
+# target to build an object file
+LinkList/Node_Iterator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/LinkList/Node_Iterator.cpp.o
+.PHONY : LinkList/Node_Iterator.cpp.o
+
+LinkList/Node_Iterator.i: LinkList/Node_Iterator.cpp.i
+.PHONY : LinkList/Node_Iterator.i
+
+# target to preprocess a source file
+LinkList/Node_Iterator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/LinkList/Node_Iterator.cpp.i
+.PHONY : LinkList/Node_Iterator.cpp.i
+
+LinkList/Node_Iterator.s: LinkList/Node_Iterator.cpp.s
+.PHONY : LinkList/Node_Iterator.s
+
+# target to generate assembly for a file
+LinkList/Node_Iterator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/LinkList/Node_Iterator.cpp.s
+.PHONY : LinkList/Node_Iterator.cpp.s
+
+MainProgram.o: MainProgram.cpp.o
+.PHONY : MainProgram.o
+
+# target to build an object file
+MainProgram.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/MainProgram.cpp.o
+.PHONY : MainProgram.cpp.o
+
+MainProgram.i: MainProgram.cpp.i
+.PHONY : MainProgram.i
+
+# target to preprocess a source file
+MainProgram.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/MainProgram.cpp.i
+.PHONY : MainProgram.cpp.i
+
+MainProgram.s: MainProgram.cpp.s
+.PHONY : MainProgram.s
+
+# target to generate assembly for a file
+MainProgram.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/MainProgram.cpp.s
+.PHONY : MainProgram.cpp.s
+
 Menu.o: Menu.cpp.o
 .PHONY : Menu.o
 
@@ -273,6 +729,54 @@ Menu.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Menu.cpp.s
 .PHONY : Menu.cpp.s
 
+MergeSort.o: MergeSort.cpp.o
+.PHONY : MergeSort.o
+
+# target to build an object file
+MergeSort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/MergeSort.cpp.o
+.PHONY : MergeSort.cpp.o
+
+MergeSort.i: MergeSort.cpp.i
+.PHONY : MergeSort.i
+
+# target to preprocess a source file
+MergeSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/MergeSort.cpp.i
+.PHONY : MergeSort.cpp.i
+
+MergeSort.s: MergeSort.cpp.s
+.PHONY : MergeSort.s
+
+# target to generate assembly for a file
+MergeSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/MergeSort.cpp.s
+.PHONY : MergeSort.cpp.s
+
+Program.o: Program.cpp.o
+.PHONY : Program.o
+
+# target to build an object file
+Program.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Program.cpp.o
+.PHONY : Program.cpp.o
+
+Program.i: Program.cpp.i
+.PHONY : Program.i
+
+# target to preprocess a source file
+Program.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Program.cpp.i
+.PHONY : Program.cpp.i
+
+Program.s: Program.cpp.s
+.PHONY : Program.s
+
+# target to generate assembly for a file
+Program.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Program.cpp.s
+.PHONY : Program.cpp.s
+
 SelectionSort.o: SelectionSort.cpp.o
 .PHONY : SelectionSort.o
 
@@ -296,6 +800,414 @@ SelectionSort.s: SelectionSort.cpp.s
 SelectionSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/SelectionSort.cpp.s
 .PHONY : SelectionSort.cpp.s
+
+SetMaxSystem.o: SetMaxSystem.cpp.o
+.PHONY : SetMaxSystem.o
+
+# target to build an object file
+SetMaxSystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/SetMaxSystem.cpp.o
+.PHONY : SetMaxSystem.cpp.o
+
+SetMaxSystem.i: SetMaxSystem.cpp.i
+.PHONY : SetMaxSystem.i
+
+# target to preprocess a source file
+SetMaxSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/SetMaxSystem.cpp.i
+.PHONY : SetMaxSystem.cpp.i
+
+SetMaxSystem.s: SetMaxSystem.cpp.s
+.PHONY : SetMaxSystem.s
+
+# target to generate assembly for a file
+SetMaxSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/SetMaxSystem.cpp.s
+.PHONY : SetMaxSystem.cpp.s
+
+Text/Cursor.o: Text/Cursor.cpp.o
+.PHONY : Text/Cursor.o
+
+# target to build an object file
+Text/Cursor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Text/Cursor.cpp.o
+.PHONY : Text/Cursor.cpp.o
+
+Text/Cursor.i: Text/Cursor.cpp.i
+.PHONY : Text/Cursor.i
+
+# target to preprocess a source file
+Text/Cursor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Text/Cursor.cpp.i
+.PHONY : Text/Cursor.cpp.i
+
+Text/Cursor.s: Text/Cursor.cpp.s
+.PHONY : Text/Cursor.s
+
+# target to generate assembly for a file
+Text/Cursor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Text/Cursor.cpp.s
+.PHONY : Text/Cursor.cpp.s
+
+Text/HighLightText.o: Text/HighLightText.cpp.o
+.PHONY : Text/HighLightText.o
+
+# target to build an object file
+Text/HighLightText.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Text/HighLightText.cpp.o
+.PHONY : Text/HighLightText.cpp.o
+
+Text/HighLightText.i: Text/HighLightText.cpp.i
+.PHONY : Text/HighLightText.i
+
+# target to preprocess a source file
+Text/HighLightText.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Text/HighLightText.cpp.i
+.PHONY : Text/HighLightText.cpp.i
+
+Text/HighLightText.s: Text/HighLightText.cpp.s
+.PHONY : Text/HighLightText.s
+
+# target to generate assembly for a file
+Text/HighLightText.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Text/HighLightText.cpp.s
+.PHONY : Text/HighLightText.cpp.s
+
+Text/KeyShortcut.o: Text/KeyShortcut.cpp.o
+.PHONY : Text/KeyShortcut.o
+
+# target to build an object file
+Text/KeyShortcut.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Text/KeyShortcut.cpp.o
+.PHONY : Text/KeyShortcut.cpp.o
+
+Text/KeyShortcut.i: Text/KeyShortcut.cpp.i
+.PHONY : Text/KeyShortcut.i
+
+# target to preprocess a source file
+Text/KeyShortcut.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Text/KeyShortcut.cpp.i
+.PHONY : Text/KeyShortcut.cpp.i
+
+Text/KeyShortcut.s: Text/KeyShortcut.cpp.s
+.PHONY : Text/KeyShortcut.s
+
+# target to generate assembly for a file
+Text/KeyShortcut.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Text/KeyShortcut.cpp.s
+.PHONY : Text/KeyShortcut.cpp.s
+
+Text/Letter.o: Text/Letter.cpp.o
+.PHONY : Text/Letter.o
+
+# target to build an object file
+Text/Letter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Text/Letter.cpp.o
+.PHONY : Text/Letter.cpp.o
+
+Text/Letter.i: Text/Letter.cpp.i
+.PHONY : Text/Letter.i
+
+# target to preprocess a source file
+Text/Letter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Text/Letter.cpp.i
+.PHONY : Text/Letter.cpp.i
+
+Text/Letter.s: Text/Letter.cpp.s
+.PHONY : Text/Letter.s
+
+# target to generate assembly for a file
+Text/Letter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Text/Letter.cpp.s
+.PHONY : Text/Letter.cpp.s
+
+Text/MultiText.o: Text/MultiText.cpp.o
+.PHONY : Text/MultiText.o
+
+# target to build an object file
+Text/MultiText.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Text/MultiText.cpp.o
+.PHONY : Text/MultiText.cpp.o
+
+Text/MultiText.i: Text/MultiText.cpp.i
+.PHONY : Text/MultiText.i
+
+# target to preprocess a source file
+Text/MultiText.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Text/MultiText.cpp.i
+.PHONY : Text/MultiText.cpp.i
+
+Text/MultiText.s: Text/MultiText.cpp.s
+.PHONY : Text/MultiText.s
+
+# target to generate assembly for a file
+Text/MultiText.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Text/MultiText.cpp.s
+.PHONY : Text/MultiText.cpp.s
+
+Text/SpecialWords.o: Text/SpecialWords.cpp.o
+.PHONY : Text/SpecialWords.o
+
+# target to build an object file
+Text/SpecialWords.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Text/SpecialWords.cpp.o
+.PHONY : Text/SpecialWords.cpp.o
+
+Text/SpecialWords.i: Text/SpecialWords.cpp.i
+.PHONY : Text/SpecialWords.i
+
+# target to preprocess a source file
+Text/SpecialWords.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Text/SpecialWords.cpp.i
+.PHONY : Text/SpecialWords.cpp.i
+
+Text/SpecialWords.s: Text/SpecialWords.cpp.s
+.PHONY : Text/SpecialWords.s
+
+# target to generate assembly for a file
+Text/SpecialWords.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Text/SpecialWords.cpp.s
+.PHONY : Text/SpecialWords.cpp.s
+
+Text/TextBox.o: Text/TextBox.cpp.o
+.PHONY : Text/TextBox.o
+
+# target to build an object file
+Text/TextBox.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Text/TextBox.cpp.o
+.PHONY : Text/TextBox.cpp.o
+
+Text/TextBox.i: Text/TextBox.cpp.i
+.PHONY : Text/TextBox.i
+
+# target to preprocess a source file
+Text/TextBox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Text/TextBox.cpp.i
+.PHONY : Text/TextBox.cpp.i
+
+Text/TextBox.s: Text/TextBox.cpp.s
+.PHONY : Text/TextBox.s
+
+# target to generate assembly for a file
+Text/TextBox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Text/TextBox.cpp.s
+.PHONY : Text/TextBox.cpp.s
+
+Tools/Box.o: Tools/Box.cpp.o
+.PHONY : Tools/Box.o
+
+# target to build an object file
+Tools/Box.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/Box.cpp.o
+.PHONY : Tools/Box.cpp.o
+
+Tools/Box.i: Tools/Box.cpp.i
+.PHONY : Tools/Box.i
+
+# target to preprocess a source file
+Tools/Box.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/Box.cpp.i
+.PHONY : Tools/Box.cpp.i
+
+Tools/Box.s: Tools/Box.cpp.s
+.PHONY : Tools/Box.s
+
+# target to generate assembly for a file
+Tools/Box.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/Box.cpp.s
+.PHONY : Tools/Box.cpp.s
+
+Tools/ColorPicker.o: Tools/ColorPicker.cpp.o
+.PHONY : Tools/ColorPicker.o
+
+# target to build an object file
+Tools/ColorPicker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/ColorPicker.cpp.o
+.PHONY : Tools/ColorPicker.cpp.o
+
+Tools/ColorPicker.i: Tools/ColorPicker.cpp.i
+.PHONY : Tools/ColorPicker.i
+
+# target to preprocess a source file
+Tools/ColorPicker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/ColorPicker.cpp.i
+.PHONY : Tools/ColorPicker.cpp.i
+
+Tools/ColorPicker.s: Tools/ColorPicker.cpp.s
+.PHONY : Tools/ColorPicker.s
+
+# target to generate assembly for a file
+Tools/ColorPicker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/ColorPicker.cpp.s
+.PHONY : Tools/ColorPicker.cpp.s
+
+Tools/Colors.o: Tools/Colors.cpp.o
+.PHONY : Tools/Colors.o
+
+# target to build an object file
+Tools/Colors.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/Colors.cpp.o
+.PHONY : Tools/Colors.cpp.o
+
+Tools/Colors.i: Tools/Colors.cpp.i
+.PHONY : Tools/Colors.i
+
+# target to preprocess a source file
+Tools/Colors.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/Colors.cpp.i
+.PHONY : Tools/Colors.cpp.i
+
+Tools/Colors.s: Tools/Colors.cpp.s
+.PHONY : Tools/Colors.s
+
+# target to generate assembly for a file
+Tools/Colors.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/Colors.cpp.s
+.PHONY : Tools/Colors.cpp.s
+
+Tools/MouseEvents.o: Tools/MouseEvents.cpp.o
+.PHONY : Tools/MouseEvents.o
+
+# target to build an object file
+Tools/MouseEvents.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/MouseEvents.cpp.o
+.PHONY : Tools/MouseEvents.cpp.o
+
+Tools/MouseEvents.i: Tools/MouseEvents.cpp.i
+.PHONY : Tools/MouseEvents.i
+
+# target to preprocess a source file
+Tools/MouseEvents.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/MouseEvents.cpp.i
+.PHONY : Tools/MouseEvents.cpp.i
+
+Tools/MouseEvents.s: Tools/MouseEvents.cpp.s
+.PHONY : Tools/MouseEvents.s
+
+# target to generate assembly for a file
+Tools/MouseEvents.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/MouseEvents.cpp.s
+.PHONY : Tools/MouseEvents.cpp.s
+
+Tools/PlayButton.o: Tools/PlayButton.cpp.o
+.PHONY : Tools/PlayButton.o
+
+# target to build an object file
+Tools/PlayButton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/PlayButton.cpp.o
+.PHONY : Tools/PlayButton.cpp.o
+
+Tools/PlayButton.i: Tools/PlayButton.cpp.i
+.PHONY : Tools/PlayButton.i
+
+# target to preprocess a source file
+Tools/PlayButton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/PlayButton.cpp.i
+.PHONY : Tools/PlayButton.cpp.i
+
+Tools/PlayButton.s: Tools/PlayButton.cpp.s
+.PHONY : Tools/PlayButton.s
+
+# target to generate assembly for a file
+Tools/PlayButton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/PlayButton.cpp.s
+.PHONY : Tools/PlayButton.cpp.s
+
+Tools/Slider.o: Tools/Slider.cpp.o
+.PHONY : Tools/Slider.o
+
+# target to build an object file
+Tools/Slider.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/Slider.cpp.o
+.PHONY : Tools/Slider.cpp.o
+
+Tools/Slider.i: Tools/Slider.cpp.i
+.PHONY : Tools/Slider.i
+
+# target to preprocess a source file
+Tools/Slider.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/Slider.cpp.i
+.PHONY : Tools/Slider.cpp.i
+
+Tools/Slider.s: Tools/Slider.cpp.s
+.PHONY : Tools/Slider.s
+
+# target to generate assembly for a file
+Tools/Slider.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/Slider.cpp.s
+.PHONY : Tools/Slider.cpp.s
+
+Tools/States.o: Tools/States.cpp.o
+.PHONY : Tools/States.o
+
+# target to build an object file
+Tools/States.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/States.cpp.o
+.PHONY : Tools/States.cpp.o
+
+Tools/States.i: Tools/States.cpp.i
+.PHONY : Tools/States.i
+
+# target to preprocess a source file
+Tools/States.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/States.cpp.i
+.PHONY : Tools/States.cpp.i
+
+Tools/States.s: Tools/States.cpp.s
+.PHONY : Tools/States.s
+
+# target to generate assembly for a file
+Tools/States.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/States.cpp.s
+.PHONY : Tools/States.cpp.s
+
+Tools/Task.o: Tools/Task.cpp.o
+.PHONY : Tools/Task.o
+
+# target to build an object file
+Tools/Task.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/Task.cpp.o
+.PHONY : Tools/Task.cpp.o
+
+Tools/Task.i: Tools/Task.cpp.i
+.PHONY : Tools/Task.i
+
+# target to preprocess a source file
+Tools/Task.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/Task.cpp.i
+.PHONY : Tools/Task.cpp.i
+
+Tools/Task.s: Tools/Task.cpp.s
+.PHONY : Tools/Task.s
+
+# target to generate assembly for a file
+Tools/Task.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/Task.cpp.s
+.PHONY : Tools/Task.cpp.s
+
+Tools/TaskHelper.o: Tools/TaskHelper.cpp.o
+.PHONY : Tools/TaskHelper.o
+
+# target to build an object file
+Tools/TaskHelper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/TaskHelper.cpp.o
+.PHONY : Tools/TaskHelper.cpp.o
+
+Tools/TaskHelper.i: Tools/TaskHelper.cpp.i
+.PHONY : Tools/TaskHelper.i
+
+# target to preprocess a source file
+Tools/TaskHelper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/TaskHelper.cpp.i
+.PHONY : Tools/TaskHelper.cpp.i
+
+Tools/TaskHelper.s: Tools/TaskHelper.cpp.s
+.PHONY : Tools/TaskHelper.s
+
+# target to generate assembly for a file
+Tools/TaskHelper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS8_FinalProject.dir/build.make CMakeFiles/CS8_FinalProject.dir/Tools/TaskHelper.cpp.s
+.PHONY : Tools/TaskHelper.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -330,27 +1242,141 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CS8_FinalProject"
+	@echo "... Algorithms.o"
+	@echo "... Algorithms.i"
+	@echo "... Algorithms.s"
 	@echo "... Bar.o"
 	@echo "... Bar.i"
 	@echo "... Bar.s"
-	@echo "... Box.o"
-	@echo "... Box.i"
-	@echo "... Box.s"
+	@echo "... BubbleSort.o"
+	@echo "... BubbleSort.i"
+	@echo "... BubbleSort.s"
 	@echo "... Delay.o"
 	@echo "... Delay.i"
 	@echo "... Delay.s"
+	@echo "... Dropdown/ContainMenus.o"
+	@echo "... Dropdown/ContainMenus.i"
+	@echo "... Dropdown/ContainMenus.s"
+	@echo "... Dropdown/DropdownMenu.o"
+	@echo "... Dropdown/DropdownMenu.i"
+	@echo "... Dropdown/DropdownMenu.s"
+	@echo "... Dropdown/FileItem.o"
+	@echo "... Dropdown/FileItem.i"
+	@echo "... Dropdown/FileItem.s"
+	@echo "... Dropdown/FileNode.o"
+	@echo "... Dropdown/FileNode.i"
+	@echo "... Dropdown/FileNode.s"
+	@echo "... Dropdown/FileTree.o"
+	@echo "... Dropdown/FileTree.i"
+	@echo "... Dropdown/FileTree.s"
+	@echo "... Dropdown/Helper.o"
+	@echo "... Dropdown/Helper.i"
+	@echo "... Dropdown/Helper.s"
+	@echo "... Dropdown/Item.o"
+	@echo "... Dropdown/Item.i"
+	@echo "... Dropdown/Item.s"
+	@echo "... Dropdown/ItemList.o"
+	@echo "... Dropdown/ItemList.i"
+	@echo "... Dropdown/ItemList.s"
+	@echo "... Dropdown/MenuBar.o"
+	@echo "... Dropdown/MenuBar.i"
+	@echo "... Dropdown/MenuBar.s"
+	@echo "... Dropdown/MenuBox.o"
+	@echo "... Dropdown/MenuBox.i"
+	@echo "... Dropdown/MenuBox.s"
+	@echo "... Dropdown/hack.o"
+	@echo "... Dropdown/hack.i"
+	@echo "... Dropdown/hack.s"
+	@echo "... FileInterface.o"
+	@echo "... FileInterface.i"
+	@echo "... FileInterface.s"
+	@echo "... Fonts/Fonts.o"
+	@echo "... Fonts/Fonts.i"
+	@echo "... Fonts/Fonts.s"
+	@echo "... GUI_Components.o"
+	@echo "... GUI_Components.i"
+	@echo "... GUI_Components.s"
 	@echo "... Grid.o"
 	@echo "... Grid.i"
 	@echo "... Grid.s"
 	@echo "... GridBox.o"
 	@echo "... GridBox.i"
 	@echo "... GridBox.s"
+	@echo "... Images/Images.o"
+	@echo "... Images/Images.i"
+	@echo "... Images/Images.s"
+	@echo "... LinkList/LinkList.o"
+	@echo "... LinkList/LinkList.i"
+	@echo "... LinkList/LinkList.s"
+	@echo "... LinkList/Node_Iterator.o"
+	@echo "... LinkList/Node_Iterator.i"
+	@echo "... LinkList/Node_Iterator.s"
+	@echo "... MainProgram.o"
+	@echo "... MainProgram.i"
+	@echo "... MainProgram.s"
 	@echo "... Menu.o"
 	@echo "... Menu.i"
 	@echo "... Menu.s"
+	@echo "... MergeSort.o"
+	@echo "... MergeSort.i"
+	@echo "... MergeSort.s"
+	@echo "... Program.o"
+	@echo "... Program.i"
+	@echo "... Program.s"
 	@echo "... SelectionSort.o"
 	@echo "... SelectionSort.i"
 	@echo "... SelectionSort.s"
+	@echo "... SetMaxSystem.o"
+	@echo "... SetMaxSystem.i"
+	@echo "... SetMaxSystem.s"
+	@echo "... Text/Cursor.o"
+	@echo "... Text/Cursor.i"
+	@echo "... Text/Cursor.s"
+	@echo "... Text/HighLightText.o"
+	@echo "... Text/HighLightText.i"
+	@echo "... Text/HighLightText.s"
+	@echo "... Text/KeyShortcut.o"
+	@echo "... Text/KeyShortcut.i"
+	@echo "... Text/KeyShortcut.s"
+	@echo "... Text/Letter.o"
+	@echo "... Text/Letter.i"
+	@echo "... Text/Letter.s"
+	@echo "... Text/MultiText.o"
+	@echo "... Text/MultiText.i"
+	@echo "... Text/MultiText.s"
+	@echo "... Text/SpecialWords.o"
+	@echo "... Text/SpecialWords.i"
+	@echo "... Text/SpecialWords.s"
+	@echo "... Text/TextBox.o"
+	@echo "... Text/TextBox.i"
+	@echo "... Text/TextBox.s"
+	@echo "... Tools/Box.o"
+	@echo "... Tools/Box.i"
+	@echo "... Tools/Box.s"
+	@echo "... Tools/ColorPicker.o"
+	@echo "... Tools/ColorPicker.i"
+	@echo "... Tools/ColorPicker.s"
+	@echo "... Tools/Colors.o"
+	@echo "... Tools/Colors.i"
+	@echo "... Tools/Colors.s"
+	@echo "... Tools/MouseEvents.o"
+	@echo "... Tools/MouseEvents.i"
+	@echo "... Tools/MouseEvents.s"
+	@echo "... Tools/PlayButton.o"
+	@echo "... Tools/PlayButton.i"
+	@echo "... Tools/PlayButton.s"
+	@echo "... Tools/Slider.o"
+	@echo "... Tools/Slider.i"
+	@echo "... Tools/Slider.s"
+	@echo "... Tools/States.o"
+	@echo "... Tools/States.i"
+	@echo "... Tools/States.s"
+	@echo "... Tools/Task.o"
+	@echo "... Tools/Task.i"
+	@echo "... Tools/Task.s"
+	@echo "... Tools/TaskHelper.o"
+	@echo "... Tools/TaskHelper.i"
+	@echo "... Tools/TaskHelper.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

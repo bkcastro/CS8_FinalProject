@@ -1,0 +1,21 @@
+//
+// Created by Brandon Castro on 12/6/21.
+//
+
+#ifndef CS8_FINALPROJECT_OBJECTSTATES_H
+#define CS8_FINALPROJECT_OBJECTSTATES_H
+
+enum ObjectStates
+{
+    HIDDEN,
+    HIGHLIGHTED,
+    DISABLE,
+    RECIPIENT,
+    ACTIVE,
+    PLAYSTATES,
+    PAUSESTATES,
+    LAST_STATE
+};
+
+
+#endif //CS8_FINALPROJECT_OBJECTSTATES_H

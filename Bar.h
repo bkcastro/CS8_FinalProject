@@ -5,7 +5,7 @@
 #ifndef CS8_FINALPROJECT_BAR_H
 #define CS8_FINALPROJECT_BAR_H
 #include <SFML/Graphics.hpp>
-#include "Box.h"
+#include "Tools/Box.h"
 
 class Bar : public Box{
 private:

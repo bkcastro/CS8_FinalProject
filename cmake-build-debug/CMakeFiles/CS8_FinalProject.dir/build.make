@@ -92,18 +92,18 @@ CMakeFiles/CS8_FinalProject.dir/Bar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Bar.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Bar.cpp -o CMakeFiles/CS8_FinalProject.dir/Bar.cpp.s
 
-CMakeFiles/CS8_FinalProject.dir/Box.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
-CMakeFiles/CS8_FinalProject.dir/Box.cpp.o: ../Box.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Box.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Box.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Box.cpp
+CMakeFiles/CS8_FinalProject.dir/Tools/Box.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Tools/Box.cpp.o: ../Tools/Box.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Tools/Box.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Tools/Box.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/Box.cpp
 
-CMakeFiles/CS8_FinalProject.dir/Box.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Box.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Box.cpp > CMakeFiles/CS8_FinalProject.dir/Box.cpp.i
+CMakeFiles/CS8_FinalProject.dir/Tools/Box.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Tools/Box.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/Box.cpp > CMakeFiles/CS8_FinalProject.dir/Tools/Box.cpp.i
 
-CMakeFiles/CS8_FinalProject.dir/Box.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Box.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Box.cpp -o CMakeFiles/CS8_FinalProject.dir/Box.cpp.s
+CMakeFiles/CS8_FinalProject.dir/Tools/Box.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Tools/Box.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/Box.cpp -o CMakeFiles/CS8_FinalProject.dir/Tools/Box.cpp.s
 
 CMakeFiles/CS8_FinalProject.dir/Grid.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
 CMakeFiles/CS8_FinalProject.dir/Grid.cpp.o: ../Grid.cpp
@@ -144,22 +144,9 @@ CMakeFiles/CS8_FinalProject.dir/GridBox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/GridBox.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/GridBox.cpp -o CMakeFiles/CS8_FinalProject.dir/GridBox.cpp.s
 
-CMakeFiles/CS8_FinalProject.dir/Delay.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
-CMakeFiles/CS8_FinalProject.dir/Delay.cpp.o: ../Delay.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Delay.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Delay.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Delay.cpp
-
-CMakeFiles/CS8_FinalProject.dir/Delay.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Delay.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Delay.cpp > CMakeFiles/CS8_FinalProject.dir/Delay.cpp.i
-
-CMakeFiles/CS8_FinalProject.dir/Delay.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Delay.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Delay.cpp -o CMakeFiles/CS8_FinalProject.dir/Delay.cpp.s
-
 CMakeFiles/CS8_FinalProject.dir/Menu.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
 CMakeFiles/CS8_FinalProject.dir/Menu.cpp.o: ../Menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Menu.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Menu.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Menu.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Menu.cpp
 
 CMakeFiles/CS8_FinalProject.dir/Menu.cpp.i: cmake_force
@@ -170,28 +157,611 @@ CMakeFiles/CS8_FinalProject.dir/Menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Menu.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Menu.cpp -o CMakeFiles/CS8_FinalProject.dir/Menu.cpp.s
 
+CMakeFiles/CS8_FinalProject.dir/Images/Images.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Images/Images.cpp.o: ../Images/Images.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Images/Images.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Images/Images.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Images/Images.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Images/Images.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Images/Images.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Images/Images.cpp > CMakeFiles/CS8_FinalProject.dir/Images/Images.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Images/Images.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Images/Images.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Images/Images.cpp -o CMakeFiles/CS8_FinalProject.dir/Images/Images.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Text/Letter.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Text/Letter.cpp.o: ../Text/Letter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Text/Letter.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Text/Letter.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/Letter.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Text/Letter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Text/Letter.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/Letter.cpp > CMakeFiles/CS8_FinalProject.dir/Text/Letter.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Text/Letter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Text/Letter.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/Letter.cpp -o CMakeFiles/CS8_FinalProject.dir/Text/Letter.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Fonts/Fonts.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Fonts/Fonts.cpp.o: ../Fonts/Fonts.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Fonts/Fonts.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Fonts/Fonts.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Fonts/Fonts.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Fonts/Fonts.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Fonts/Fonts.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Fonts/Fonts.cpp > CMakeFiles/CS8_FinalProject.dir/Fonts/Fonts.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Fonts/Fonts.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Fonts/Fonts.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Fonts/Fonts.cpp -o CMakeFiles/CS8_FinalProject.dir/Fonts/Fonts.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Tools/Colors.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Tools/Colors.cpp.o: ../Tools/Colors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Tools/Colors.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Tools/Colors.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/Colors.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Tools/Colors.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Tools/Colors.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/Colors.cpp > CMakeFiles/CS8_FinalProject.dir/Tools/Colors.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Tools/Colors.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Tools/Colors.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/Colors.cpp -o CMakeFiles/CS8_FinalProject.dir/Tools/Colors.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Text/HighLightText.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Text/HighLightText.cpp.o: ../Text/HighLightText.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Text/HighLightText.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Text/HighLightText.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/HighLightText.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Text/HighLightText.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Text/HighLightText.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/HighLightText.cpp > CMakeFiles/CS8_FinalProject.dir/Text/HighLightText.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Text/HighLightText.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Text/HighLightText.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/HighLightText.cpp -o CMakeFiles/CS8_FinalProject.dir/Text/HighLightText.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Tools/States.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Tools/States.cpp.o: ../Tools/States.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Tools/States.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Tools/States.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/States.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Tools/States.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Tools/States.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/States.cpp > CMakeFiles/CS8_FinalProject.dir/Tools/States.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Tools/States.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Tools/States.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/States.cpp -o CMakeFiles/CS8_FinalProject.dir/Tools/States.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Program.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Program.cpp.o: ../Program.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Program.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Program.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Program.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Program.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Program.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Program.cpp > CMakeFiles/CS8_FinalProject.dir/Program.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Program.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Program.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Program.cpp -o CMakeFiles/CS8_FinalProject.dir/Program.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Tools/MouseEvents.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Tools/MouseEvents.cpp.o: ../Tools/MouseEvents.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Tools/MouseEvents.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Tools/MouseEvents.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/MouseEvents.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Tools/MouseEvents.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Tools/MouseEvents.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/MouseEvents.cpp > CMakeFiles/CS8_FinalProject.dir/Tools/MouseEvents.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Tools/MouseEvents.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Tools/MouseEvents.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/MouseEvents.cpp -o CMakeFiles/CS8_FinalProject.dir/Tools/MouseEvents.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/MainProgram.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/MainProgram.cpp.o: ../MainProgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CS8_FinalProject.dir/MainProgram.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/MainProgram.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/MainProgram.cpp
+
+CMakeFiles/CS8_FinalProject.dir/MainProgram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/MainProgram.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/MainProgram.cpp > CMakeFiles/CS8_FinalProject.dir/MainProgram.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/MainProgram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/MainProgram.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/MainProgram.cpp -o CMakeFiles/CS8_FinalProject.dir/MainProgram.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Algorithms.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Algorithms.cpp.o: ../Algorithms.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Algorithms.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Algorithms.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Algorithms.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Algorithms.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Algorithms.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Algorithms.cpp > CMakeFiles/CS8_FinalProject.dir/Algorithms.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Algorithms.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Algorithms.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Algorithms.cpp -o CMakeFiles/CS8_FinalProject.dir/Algorithms.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/GUI_Components.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/GUI_Components.cpp.o: ../GUI_Components.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/CS8_FinalProject.dir/GUI_Components.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/GUI_Components.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/GUI_Components.cpp
+
+CMakeFiles/CS8_FinalProject.dir/GUI_Components.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/GUI_Components.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/GUI_Components.cpp > CMakeFiles/CS8_FinalProject.dir/GUI_Components.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/GUI_Components.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/GUI_Components.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/GUI_Components.cpp -o CMakeFiles/CS8_FinalProject.dir/GUI_Components.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBox.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBox.cpp.o: ../Dropdown/MenuBox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBox.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBox.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/MenuBox.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBox.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/MenuBox.cpp > CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBox.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBox.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/MenuBox.cpp -o CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBox.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBar.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBar.cpp.o: ../Dropdown/MenuBar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBar.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBar.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/MenuBar.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBar.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/MenuBar.cpp > CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBar.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBar.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/MenuBar.cpp -o CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBar.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/DropdownMenu.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Dropdown/DropdownMenu.cpp.o: ../Dropdown/DropdownMenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Dropdown/DropdownMenu.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Dropdown/DropdownMenu.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/DropdownMenu.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/DropdownMenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Dropdown/DropdownMenu.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/DropdownMenu.cpp > CMakeFiles/CS8_FinalProject.dir/Dropdown/DropdownMenu.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/DropdownMenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Dropdown/DropdownMenu.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/DropdownMenu.cpp -o CMakeFiles/CS8_FinalProject.dir/Dropdown/DropdownMenu.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/ItemList.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Dropdown/ItemList.cpp.o: ../Dropdown/ItemList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Dropdown/ItemList.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Dropdown/ItemList.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/ItemList.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/ItemList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Dropdown/ItemList.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/ItemList.cpp > CMakeFiles/CS8_FinalProject.dir/Dropdown/ItemList.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/ItemList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Dropdown/ItemList.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/ItemList.cpp -o CMakeFiles/CS8_FinalProject.dir/Dropdown/ItemList.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/Item.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Dropdown/Item.cpp.o: ../Dropdown/Item.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Dropdown/Item.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Dropdown/Item.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/Item.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/Item.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Dropdown/Item.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/Item.cpp > CMakeFiles/CS8_FinalProject.dir/Dropdown/Item.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/Item.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Dropdown/Item.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/Item.cpp -o CMakeFiles/CS8_FinalProject.dir/Dropdown/Item.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/Helper.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Dropdown/Helper.cpp.o: ../Dropdown/Helper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Dropdown/Helper.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Dropdown/Helper.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/Helper.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/Helper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Dropdown/Helper.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/Helper.cpp > CMakeFiles/CS8_FinalProject.dir/Dropdown/Helper.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/Helper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Dropdown/Helper.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/Helper.cpp -o CMakeFiles/CS8_FinalProject.dir/Dropdown/Helper.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/FileItem.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Dropdown/FileItem.cpp.o: ../Dropdown/FileItem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Dropdown/FileItem.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Dropdown/FileItem.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/FileItem.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/FileItem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Dropdown/FileItem.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/FileItem.cpp > CMakeFiles/CS8_FinalProject.dir/Dropdown/FileItem.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/FileItem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Dropdown/FileItem.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/FileItem.cpp -o CMakeFiles/CS8_FinalProject.dir/Dropdown/FileItem.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/FileNode.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Dropdown/FileNode.cpp.o: ../Dropdown/FileNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Dropdown/FileNode.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Dropdown/FileNode.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/FileNode.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/FileNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Dropdown/FileNode.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/FileNode.cpp > CMakeFiles/CS8_FinalProject.dir/Dropdown/FileNode.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/FileNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Dropdown/FileNode.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/FileNode.cpp -o CMakeFiles/CS8_FinalProject.dir/Dropdown/FileNode.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/FileTree.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Dropdown/FileTree.cpp.o: ../Dropdown/FileTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Dropdown/FileTree.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Dropdown/FileTree.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/FileTree.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/FileTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Dropdown/FileTree.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/FileTree.cpp > CMakeFiles/CS8_FinalProject.dir/Dropdown/FileTree.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/FileTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Dropdown/FileTree.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/FileTree.cpp -o CMakeFiles/CS8_FinalProject.dir/Dropdown/FileTree.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Tools/PlayButton.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Tools/PlayButton.cpp.o: ../Tools/PlayButton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Tools/PlayButton.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Tools/PlayButton.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/PlayButton.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Tools/PlayButton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Tools/PlayButton.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/PlayButton.cpp > CMakeFiles/CS8_FinalProject.dir/Tools/PlayButton.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Tools/PlayButton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Tools/PlayButton.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/PlayButton.cpp -o CMakeFiles/CS8_FinalProject.dir/Tools/PlayButton.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/ContainMenus.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Dropdown/ContainMenus.cpp.o: ../Dropdown/ContainMenus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Dropdown/ContainMenus.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Dropdown/ContainMenus.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/ContainMenus.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/ContainMenus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Dropdown/ContainMenus.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/ContainMenus.cpp > CMakeFiles/CS8_FinalProject.dir/Dropdown/ContainMenus.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/ContainMenus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Dropdown/ContainMenus.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/ContainMenus.cpp -o CMakeFiles/CS8_FinalProject.dir/Dropdown/ContainMenus.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Tools/Slider.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Tools/Slider.cpp.o: ../Tools/Slider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Tools/Slider.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Tools/Slider.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/Slider.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Tools/Slider.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Tools/Slider.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/Slider.cpp > CMakeFiles/CS8_FinalProject.dir/Tools/Slider.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Tools/Slider.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Tools/Slider.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/Slider.cpp -o CMakeFiles/CS8_FinalProject.dir/Tools/Slider.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Tools/ColorPicker.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Tools/ColorPicker.cpp.o: ../Tools/ColorPicker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Tools/ColorPicker.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Tools/ColorPicker.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/ColorPicker.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Tools/ColorPicker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Tools/ColorPicker.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/ColorPicker.cpp > CMakeFiles/CS8_FinalProject.dir/Tools/ColorPicker.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Tools/ColorPicker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Tools/ColorPicker.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/ColorPicker.cpp -o CMakeFiles/CS8_FinalProject.dir/Tools/ColorPicker.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Text/MultiText.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Text/MultiText.cpp.o: ../Text/MultiText.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Text/MultiText.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Text/MultiText.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/MultiText.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Text/MultiText.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Text/MultiText.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/MultiText.cpp > CMakeFiles/CS8_FinalProject.dir/Text/MultiText.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Text/MultiText.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Text/MultiText.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/MultiText.cpp -o CMakeFiles/CS8_FinalProject.dir/Text/MultiText.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Text/Cursor.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Text/Cursor.cpp.o: ../Text/Cursor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Text/Cursor.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Text/Cursor.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/Cursor.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Text/Cursor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Text/Cursor.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/Cursor.cpp > CMakeFiles/CS8_FinalProject.dir/Text/Cursor.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Text/Cursor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Text/Cursor.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/Cursor.cpp -o CMakeFiles/CS8_FinalProject.dir/Text/Cursor.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Text/KeyShortcut.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Text/KeyShortcut.cpp.o: ../Text/KeyShortcut.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Text/KeyShortcut.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Text/KeyShortcut.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/KeyShortcut.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Text/KeyShortcut.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Text/KeyShortcut.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/KeyShortcut.cpp > CMakeFiles/CS8_FinalProject.dir/Text/KeyShortcut.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Text/KeyShortcut.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Text/KeyShortcut.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/KeyShortcut.cpp -o CMakeFiles/CS8_FinalProject.dir/Text/KeyShortcut.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Text/SpecialWords.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Text/SpecialWords.cpp.o: ../Text/SpecialWords.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Text/SpecialWords.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Text/SpecialWords.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/SpecialWords.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Text/SpecialWords.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Text/SpecialWords.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/SpecialWords.cpp > CMakeFiles/CS8_FinalProject.dir/Text/SpecialWords.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Text/SpecialWords.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Text/SpecialWords.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/SpecialWords.cpp -o CMakeFiles/CS8_FinalProject.dir/Text/SpecialWords.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/LinkList/Node_Iterator.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/LinkList/Node_Iterator.cpp.o: ../LinkList/Node_Iterator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/CS8_FinalProject.dir/LinkList/Node_Iterator.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/LinkList/Node_Iterator.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/LinkList/Node_Iterator.cpp
+
+CMakeFiles/CS8_FinalProject.dir/LinkList/Node_Iterator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/LinkList/Node_Iterator.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/LinkList/Node_Iterator.cpp > CMakeFiles/CS8_FinalProject.dir/LinkList/Node_Iterator.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/LinkList/Node_Iterator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/LinkList/Node_Iterator.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/LinkList/Node_Iterator.cpp -o CMakeFiles/CS8_FinalProject.dir/LinkList/Node_Iterator.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/LinkList/LinkList.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/LinkList/LinkList.cpp.o: ../LinkList/LinkList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/CS8_FinalProject.dir/LinkList/LinkList.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/LinkList/LinkList.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/LinkList/LinkList.cpp
+
+CMakeFiles/CS8_FinalProject.dir/LinkList/LinkList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/LinkList/LinkList.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/LinkList/LinkList.cpp > CMakeFiles/CS8_FinalProject.dir/LinkList/LinkList.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/LinkList/LinkList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/LinkList/LinkList.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/LinkList/LinkList.cpp -o CMakeFiles/CS8_FinalProject.dir/LinkList/LinkList.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Tools/Task.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Tools/Task.cpp.o: ../Tools/Task.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Tools/Task.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Tools/Task.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/Task.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Tools/Task.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Tools/Task.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/Task.cpp > CMakeFiles/CS8_FinalProject.dir/Tools/Task.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Tools/Task.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Tools/Task.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/Task.cpp -o CMakeFiles/CS8_FinalProject.dir/Tools/Task.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Tools/TaskHelper.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Tools/TaskHelper.cpp.o: ../Tools/TaskHelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Tools/TaskHelper.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Tools/TaskHelper.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/TaskHelper.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Tools/TaskHelper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Tools/TaskHelper.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/TaskHelper.cpp > CMakeFiles/CS8_FinalProject.dir/Tools/TaskHelper.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Tools/TaskHelper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Tools/TaskHelper.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/TaskHelper.cpp -o CMakeFiles/CS8_FinalProject.dir/Tools/TaskHelper.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Text/TextBox.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Text/TextBox.cpp.o: ../Text/TextBox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Text/TextBox.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Text/TextBox.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/TextBox.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Text/TextBox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Text/TextBox.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/TextBox.cpp > CMakeFiles/CS8_FinalProject.dir/Text/TextBox.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Text/TextBox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Text/TextBox.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/TextBox.cpp -o CMakeFiles/CS8_FinalProject.dir/Text/TextBox.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/SetMaxSystem.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/SetMaxSystem.cpp.o: ../SetMaxSystem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/CS8_FinalProject.dir/SetMaxSystem.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/SetMaxSystem.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/SetMaxSystem.cpp
+
+CMakeFiles/CS8_FinalProject.dir/SetMaxSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/SetMaxSystem.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/SetMaxSystem.cpp > CMakeFiles/CS8_FinalProject.dir/SetMaxSystem.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/SetMaxSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/SetMaxSystem.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/SetMaxSystem.cpp -o CMakeFiles/CS8_FinalProject.dir/SetMaxSystem.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Delay.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Delay.cpp.o: ../Delay.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Delay.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Delay.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Delay.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Delay.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Delay.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Delay.cpp > CMakeFiles/CS8_FinalProject.dir/Delay.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Delay.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Delay.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Delay.cpp -o CMakeFiles/CS8_FinalProject.dir/Delay.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/BubbleSort.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/BubbleSort.cpp.o: ../BubbleSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/CS8_FinalProject.dir/BubbleSort.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/BubbleSort.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/BubbleSort.cpp
+
+CMakeFiles/CS8_FinalProject.dir/BubbleSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/BubbleSort.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/BubbleSort.cpp > CMakeFiles/CS8_FinalProject.dir/BubbleSort.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/BubbleSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/BubbleSort.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/BubbleSort.cpp -o CMakeFiles/CS8_FinalProject.dir/BubbleSort.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/MergeSort.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/MergeSort.cpp.o: ../MergeSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/CS8_FinalProject.dir/MergeSort.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/MergeSort.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/MergeSort.cpp
+
+CMakeFiles/CS8_FinalProject.dir/MergeSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/MergeSort.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/MergeSort.cpp > CMakeFiles/CS8_FinalProject.dir/MergeSort.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/MergeSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/MergeSort.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/MergeSort.cpp -o CMakeFiles/CS8_FinalProject.dir/MergeSort.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/FileInterface.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/FileInterface.cpp.o: ../FileInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/CS8_FinalProject.dir/FileInterface.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/FileInterface.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/FileInterface.cpp
+
+CMakeFiles/CS8_FinalProject.dir/FileInterface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/FileInterface.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/FileInterface.cpp > CMakeFiles/CS8_FinalProject.dir/FileInterface.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/FileInterface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/FileInterface.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/FileInterface.cpp -o CMakeFiles/CS8_FinalProject.dir/FileInterface.cpp.s
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/hack.cpp.o: CMakeFiles/CS8_FinalProject.dir/flags.make
+CMakeFiles/CS8_FinalProject.dir/Dropdown/hack.cpp.o: ../Dropdown/hack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/CS8_FinalProject.dir/Dropdown/hack.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS8_FinalProject.dir/Dropdown/hack.cpp.o -c /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/hack.cpp
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/hack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS8_FinalProject.dir/Dropdown/hack.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/hack.cpp > CMakeFiles/CS8_FinalProject.dir/Dropdown/hack.cpp.i
+
+CMakeFiles/CS8_FinalProject.dir/Dropdown/hack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS8_FinalProject.dir/Dropdown/hack.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/hack.cpp -o CMakeFiles/CS8_FinalProject.dir/Dropdown/hack.cpp.s
+
 # Object files for target CS8_FinalProject
 CS8_FinalProject_OBJECTS = \
 "CMakeFiles/CS8_FinalProject.dir/main.cpp.o" \
 "CMakeFiles/CS8_FinalProject.dir/Bar.cpp.o" \
-"CMakeFiles/CS8_FinalProject.dir/Box.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Tools/Box.cpp.o" \
 "CMakeFiles/CS8_FinalProject.dir/Grid.cpp.o" \
 "CMakeFiles/CS8_FinalProject.dir/SelectionSort.cpp.o" \
 "CMakeFiles/CS8_FinalProject.dir/GridBox.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Menu.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Images/Images.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Text/Letter.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Fonts/Fonts.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Tools/Colors.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Text/HighLightText.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Tools/States.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Program.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Tools/MouseEvents.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/MainProgram.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Algorithms.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/GUI_Components.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBox.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBar.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Dropdown/DropdownMenu.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Dropdown/ItemList.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Dropdown/Item.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Dropdown/Helper.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Dropdown/FileItem.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Dropdown/FileNode.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Dropdown/FileTree.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Tools/PlayButton.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Dropdown/ContainMenus.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Tools/Slider.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Tools/ColorPicker.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Text/MultiText.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Text/Cursor.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Text/KeyShortcut.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Text/SpecialWords.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/LinkList/Node_Iterator.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/LinkList/LinkList.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Tools/Task.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Tools/TaskHelper.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Text/TextBox.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/SetMaxSystem.cpp.o" \
 "CMakeFiles/CS8_FinalProject.dir/Delay.cpp.o" \
-"CMakeFiles/CS8_FinalProject.dir/Menu.cpp.o"
+"CMakeFiles/CS8_FinalProject.dir/BubbleSort.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/MergeSort.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/FileInterface.cpp.o" \
+"CMakeFiles/CS8_FinalProject.dir/Dropdown/hack.cpp.o"
 
 # External object files for target CS8_FinalProject
 CS8_FinalProject_EXTERNAL_OBJECTS =
 
 CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/main.cpp.o
 CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Bar.cpp.o
-CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Box.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Tools/Box.cpp.o
 CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Grid.cpp.o
 CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/SelectionSort.cpp.o
 CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/GridBox.cpp.o
-CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Delay.cpp.o
 CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Menu.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Images/Images.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Text/Letter.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Fonts/Fonts.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Tools/Colors.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Text/HighLightText.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Tools/States.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Program.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Tools/MouseEvents.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/MainProgram.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Algorithms.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/GUI_Components.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBox.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Dropdown/MenuBar.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Dropdown/DropdownMenu.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Dropdown/ItemList.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Dropdown/Item.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Dropdown/Helper.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Dropdown/FileItem.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Dropdown/FileNode.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Dropdown/FileTree.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Tools/PlayButton.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Dropdown/ContainMenus.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Tools/Slider.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Tools/ColorPicker.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Text/MultiText.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Text/Cursor.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Text/KeyShortcut.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Text/SpecialWords.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/LinkList/Node_Iterator.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/LinkList/LinkList.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Tools/Task.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Tools/TaskHelper.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Text/TextBox.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/SetMaxSystem.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Delay.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/BubbleSort.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/MergeSort.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/FileInterface.cpp.o
+CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/Dropdown/hack.cpp.o
 CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/build.make
 CS8_FinalProject: /usr/local/lib/libsfml-graphics.2.5.1.dylib
 CS8_FinalProject: /usr/local/lib/libsfml-audio.2.5.1.dylib
@@ -199,7 +769,7 @@ CS8_FinalProject: /usr/local/lib/libsfml-network.2.5.1.dylib
 CS8_FinalProject: /usr/local/lib/libsfml-window.2.5.1.dylib
 CS8_FinalProject: /usr/local/lib/libsfml-system.2.5.1.dylib
 CS8_FinalProject: CMakeFiles/CS8_FinalProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable CS8_FinalProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/liljgremlin/ClionProjects/CS8-FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking CXX executable CS8_FinalProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CS8_FinalProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

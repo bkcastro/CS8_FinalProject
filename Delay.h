@@ -4,14 +4,9 @@
 
 #ifndef CS8_FINALPROJECT_DELAY_H
 #define CS8_FINALPROJECT_DELAY_H
-#include <chrono>
-#include <thread>
 
-
-class Delay {
-public:
-    // pass in milliseconds
-    static void delay(long long milliseconds);
+ struct Delay {
+    static long long delay;
 };
 
 

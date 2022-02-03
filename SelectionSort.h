@@ -4,22 +4,30 @@
 
 #ifndef CS8_FINALPROJECT_SELECTIONSORT_H
 #define CS8_FINALPROJECT_SELECTIONSORT_H
-#include "Delay.h"
 #include "Grid.h"
 
 class SelectionSort {
 private:
-    static int i;
-    static int j;
-    static int hold;
+    int i = 0;
+    int j = i+1;
+    int hold = i;
+    bool sorted = false;
 
-    static bool sorted;
+    sf::Color targetColor = sf::Color::Red;
+    sf::Color barColor;
 
 public:
-    static void sort(Grid& grid);
-    static void sortFaster(Grid& grid);
-    static void swap(Bar* num1, Bar* num2);
-    static bool getState();
+    SelectionSort();
+
+    void setTargetColor(sf::Color color);
+    void setBarColor(sf::Color color);
+
+    bool checkSorted() const;
+    void sort(Grid& grid);
+    void sortFaster(Grid& grid);
+    void swap(Bar* bar1, Bar* bar2, float* num1, float* num2);
+    void reset();
+    void reset(Grid& grid);
 };
 
 

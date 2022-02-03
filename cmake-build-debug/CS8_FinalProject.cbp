@@ -80,22 +80,112 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Algorithms.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Algorithms.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
 		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Bar.cpp">
 			<Option target="CS8_FinalProject"/>
 		</Unit>
 		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Bar.h">
 			<Option target="CS8_FinalProject"/>
 		</Unit>
-		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Box.cpp">
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/BubbleSort.cpp">
 			<Option target="CS8_FinalProject"/>
 		</Unit>
-		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Box.h">
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/BubbleSort.h">
 			<Option target="CS8_FinalProject"/>
 		</Unit>
 		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Delay.cpp">
 			<Option target="CS8_FinalProject"/>
 		</Unit>
 		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Delay.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/ContainMenus.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/ContainMenus.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/DropdownMenu.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/DropdownMenu.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/FileItem.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/FileItem.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/FileNode.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/FileNode.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/FileTree.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/FileTree.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/Helper.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/Helper.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/Item.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/Item.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/ItemList.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/ItemList.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/MenuBar.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/MenuBar.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/MenuBox.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/MenuBox.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/hack.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Dropdown/hack.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/FileInterface.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/FileInterface.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Fonts/Fonts.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Fonts/Fonts.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/GUI_Components.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/GUI_Components.h">
 			<Option target="CS8_FinalProject"/>
 		</Unit>
 		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Grid.cpp">
@@ -110,16 +200,178 @@
 		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/GridBox.h">
 			<Option target="CS8_FinalProject"/>
 		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Images/Images.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Images/Images.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/LinkList/LinkList.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/LinkList/LinkList.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/LinkList/Node.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/LinkList/Node_Iterator.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/LinkList/Node_Iterator.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/MainProgram.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/MainProgram.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
 		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Menu.cpp">
 			<Option target="CS8_FinalProject"/>
 		</Unit>
 		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Menu.h">
 			<Option target="CS8_FinalProject"/>
 		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/MergeSort.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/MergeSort.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Program.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Program.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
 		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/SelectionSort.cpp">
 			<Option target="CS8_FinalProject"/>
 		</Unit>
 		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/SelectionSort.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/SetMaxSystem.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/SetMaxSystem.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Snapshot.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/SnapshotInterface.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/Cursor.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/Cursor.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/HighLightText.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/HighLightText.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/KeyShortcut.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/KeyShortcut.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/Letter.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/Letter.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/MultiText.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/MultiText.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/SpecialWords.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/SpecialWords.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/TempHistory.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/TextBox.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Text/TextBox.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/AlgorithmStates.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/Box.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/Box.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/ColorPicker.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/ColorPicker.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/Colors.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/Colors.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/MouseEvents.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/MouseEvents.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/ObjectStates.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/PlayButton.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/PlayButton.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/Slider.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/Slider.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/States.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/States.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/Task.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/Task.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/TaskHelper.cpp">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/TaskHelper.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/TaskObjects.h">
+			<Option target="CS8_FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/Tools/TaskSnapshot.h">
 			<Option target="CS8_FinalProject"/>
 		</Unit>
 		<Unit filename="/Users/liljgremlin/ClionProjects/CS8-FinalProject/main.cpp">
